@@ -1,0 +1,84 @@
+# ============ 特价机票雷达 配置 ============
+# 出发机场（IATA 三字码）。NGB 宁波栎社 / HGH 杭州萧山 / PVG 上海浦东 / SHA 上海虹桥
+origins:
+  - NGB
+  - HGH
+  - PVG
+
+# 目的地：机场代码 -> 显示名。不想监控的直接删掉一行即可。
+destinations:
+  OKA: 冲绳·那霸
+  CJU: 济州岛
+  MPH: 长滩岛(卡蒂克兰)
+  KLO: 长滩岛(卡利博)
+  CEB: 宿务
+  HKT: 普吉岛
+  USM: 苏梅岛
+  PQC: 富国岛
+  DAD: 岘港
+  CXR: 芽庄
+  DPS: 巴厘岛
+  BKI: 沙巴·亚庇
+  KIX: 大阪
+  FUK: 福冈
+  TYO: 东京(成田/羽田)
+  ICN: 首尔
+  PUS: 釜山
+  BKK: 曼谷
+  CNX: 清迈
+  SIN: 新加坡
+  KUL: 吉隆坡
+  TPE: 台北
+
+currency: CNY
+language: zh-CN
+max_stops: 1          # 0=只要直飞, 1=允许一次中转
+adults: 1
+
+# ---- 周末：未来 N 周，每周按 patterns 生成出发/返回日 ----
+weekends:
+  weeks_ahead: 8
+  patterns:
+    - [Fri, Sun]      # 周五去、周日回
+    # - [Fri, Mon]    # 需要更长的周末可以打开
+    # - [Sat, Mon]
+
+# ---- 法定假期：请对照国务院放假通知核对/增删 ----
+holidays:
+  - name: 中秋
+    depart: 2026-09-25
+    return: 2026-09-27
+  - name: 国庆
+    depart: 2026-09-30
+    return: 2026-10-07
+  - name: 国庆(后半)
+    depart: 2026-10-03
+    return: 2026-10-08
+  - name: 元旦
+    depart: 2026-12-31
+    return: 2027-01-03
+  - name: 春节
+    depart: 2027-02-06
+    return: 2027-02-14
+
+# ---- 降价提醒规则（满足任一即推送）----
+alerts:
+  drop_pct: 15            # 比上次查询降 ≥15%
+  drop_abs: 300           # 或降 ≥300 元
+  target_price_default: 2000   # 或往返总价低于这个数
+  target_price:           # 单独给某些目的地设心理价位
+    OKA: 1500
+    CJU: 1200
+    TPE: 1500
+    KIX: 1800
+    FUK: 1500
+    MPH: 2200
+    KLO: 2200
+  cooldown_hours: 20      # 同一航线+日期 20 小时内不重复提醒
+  max_items_per_push: 15  # 一条微信消息最多列多少条
+
+# ---- 请求节奏，防止被 Google 限流 ----
+request:
+  sleep_min: 2.0
+  sleep_max: 5.0
+  retries: 2
