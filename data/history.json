@@ -1,0 +1,3202 @@
+{
+ "NGB-OKA-2026-10-16-2026-10-18": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-OKA-2026-10-23-2026-10-25": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-OKA-2026-10-30-2026-11-01": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    4706
+   ]
+  ],
+  "last_alert": null
+ },
+ "NGB-OKA-2026-11-06-2026-11-08": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-OKA-2026-11-13-2026-11-15": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-OKA-2026-11-20-2026-11-22": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-OKA-2026-11-27-2026-11-29": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-OKA-2026-12-04-2026-12-06": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    2847
+   ]
+  ],
+  "last_alert": null
+ },
+ "NGB-OKA-2026-12-31-2027-01-03": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    3751
+   ]
+  ],
+  "last_alert": null
+ },
+ "NGB-OKA-2027-02-06-2027-02-14": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    6956
+   ]
+  ],
+  "last_alert": null
+ },
+ "NGB-CJU-2026-10-16-2026-10-18": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    1273
+   ]
+  ],
+  "last_alert": null
+ },
+ "NGB-CJU-2026-10-23-2026-10-25": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    3327
+   ]
+  ],
+  "last_alert": null
+ },
+ "NGB-CJU-2026-10-30-2026-11-01": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    3905
+   ]
+  ],
+  "last_alert": null
+ },
+ "NGB-CJU-2026-11-06-2026-11-08": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    2245
+   ]
+  ],
+  "last_alert": null
+ },
+ "NGB-CJU-2026-11-13-2026-11-15": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    3485
+   ]
+  ],
+  "last_alert": null
+ },
+ "NGB-CJU-2026-11-20-2026-11-22": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    2245
+   ]
+  ],
+  "last_alert": null
+ },
+ "NGB-CJU-2026-11-27-2026-11-29": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    2191
+   ]
+  ],
+  "last_alert": null
+ },
+ "NGB-CJU-2026-12-04-2026-12-06": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    2385
+   ]
+  ],
+  "last_alert": null
+ },
+ "NGB-CJU-2026-12-31-2027-01-03": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    3358
+   ]
+  ],
+  "last_alert": null
+ },
+ "NGB-CJU-2027-02-06-2027-02-14": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    4222
+   ]
+  ],
+  "last_alert": null
+ },
+ "NGB-MPH-2026-10-16-2026-10-18": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-MPH-2026-10-23-2026-10-25": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-MPH-2026-10-30-2026-11-01": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-MPH-2026-11-06-2026-11-08": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-MPH-2026-11-13-2026-11-15": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-MPH-2026-11-20-2026-11-22": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-MPH-2026-11-27-2026-11-29": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-MPH-2026-12-04-2026-12-06": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-MPH-2026-12-31-2027-01-03": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-MPH-2027-02-06-2027-02-14": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-KLO-2026-10-16-2026-10-18": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-KLO-2026-10-23-2026-10-25": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-KLO-2026-10-30-2026-11-01": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-KLO-2026-11-06-2026-11-08": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-KLO-2026-11-13-2026-11-15": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-KLO-2026-11-20-2026-11-22": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-KLO-2026-11-27-2026-11-29": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-KLO-2026-12-04-2026-12-06": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-KLO-2026-12-31-2027-01-03": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-KLO-2027-02-06-2027-02-14": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-CEB-2026-10-16-2026-10-18": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-CEB-2026-10-23-2026-10-25": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-CEB-2026-10-30-2026-11-01": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-CEB-2026-11-06-2026-11-08": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-CEB-2026-11-13-2026-11-15": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-CEB-2026-11-20-2026-11-22": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-CEB-2026-11-27-2026-11-29": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-CEB-2026-12-04-2026-12-06": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-CEB-2026-12-31-2027-01-03": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-CEB-2027-02-06-2027-02-14": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-HKT-2026-10-16-2026-10-18": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-HKT-2026-10-23-2026-10-25": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-HKT-2026-10-30-2026-11-01": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    4070
+   ]
+  ],
+  "last_alert": null
+ },
+ "NGB-HKT-2026-11-06-2026-11-08": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-HKT-2026-11-13-2026-11-15": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    4204
+   ]
+  ],
+  "last_alert": null
+ },
+ "NGB-HKT-2026-11-20-2026-11-22": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-HKT-2026-11-27-2026-11-29": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    2834
+   ]
+  ],
+  "last_alert": null
+ },
+ "NGB-HKT-2026-12-04-2026-12-06": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    2822
+   ]
+  ],
+  "last_alert": null
+ },
+ "NGB-HKT-2026-12-31-2027-01-03": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    3988
+   ]
+  ],
+  "last_alert": null
+ },
+ "NGB-HKT-2027-02-06-2027-02-14": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    5275
+   ]
+  ],
+  "last_alert": null
+ },
+ "NGB-USM-2026-10-16-2026-10-18": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-USM-2026-10-23-2026-10-25": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-USM-2026-10-30-2026-11-01": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-USM-2026-11-06-2026-11-08": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-USM-2026-11-13-2026-11-15": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-USM-2026-11-20-2026-11-22": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-USM-2026-11-27-2026-11-29": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-USM-2026-12-04-2026-12-06": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-USM-2026-12-31-2027-01-03": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-USM-2027-02-06-2027-02-14": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-PQC-2026-10-16-2026-10-18": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    3958
+   ]
+  ],
+  "last_alert": null
+ },
+ "NGB-PQC-2026-10-23-2026-10-25": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-PQC-2026-10-30-2026-11-01": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-PQC-2026-11-06-2026-11-08": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-PQC-2026-11-13-2026-11-15": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-PQC-2026-11-20-2026-11-22": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    2222
+   ]
+  ],
+  "last_alert": null
+ },
+ "NGB-PQC-2026-11-27-2026-11-29": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-PQC-2026-12-04-2026-12-06": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-PQC-2026-12-31-2027-01-03": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    3616
+   ]
+  ],
+  "last_alert": null
+ },
+ "NGB-PQC-2027-02-06-2027-02-14": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-DAD-2026-10-16-2026-10-18": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    3054
+   ]
+  ],
+  "last_alert": null
+ },
+ "NGB-DAD-2026-10-23-2026-10-25": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    3092
+   ]
+  ],
+  "last_alert": null
+ },
+ "NGB-DAD-2026-10-30-2026-11-01": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    4292
+   ]
+  ],
+  "last_alert": null
+ },
+ "NGB-DAD-2026-11-06-2026-11-08": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-DAD-2026-11-13-2026-11-15": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    2699
+   ]
+  ],
+  "last_alert": null
+ },
+ "NGB-DAD-2026-11-20-2026-11-22": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    2000
+   ]
+  ],
+  "last_alert": "2026-10-13 05:13"
+ },
+ "NGB-DAD-2026-11-27-2026-11-29": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-DAD-2026-12-04-2026-12-06": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-DAD-2026-12-31-2027-01-03": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-DAD-2027-02-06-2027-02-14": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-CXR-2026-10-16-2026-10-18": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-CXR-2026-10-23-2026-10-25": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-CXR-2026-10-30-2026-11-01": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-CXR-2026-11-06-2026-11-08": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-CXR-2026-11-13-2026-11-15": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-CXR-2026-11-20-2026-11-22": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-CXR-2026-11-27-2026-11-29": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-CXR-2026-12-04-2026-12-06": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-CXR-2026-12-31-2027-01-03": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-CXR-2027-02-06-2027-02-14": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-DPS-2026-10-16-2026-10-18": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-DPS-2026-10-23-2026-10-25": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-DPS-2026-10-30-2026-11-01": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-DPS-2026-11-06-2026-11-08": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-DPS-2026-11-13-2026-11-15": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-DPS-2026-11-20-2026-11-22": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-DPS-2026-11-27-2026-11-29": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-DPS-2026-12-04-2026-12-06": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-DPS-2026-12-31-2027-01-03": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-DPS-2027-02-06-2027-02-14": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-BKI-2026-10-16-2026-10-18": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    2651
+   ]
+  ],
+  "last_alert": null
+ },
+ "NGB-BKI-2026-10-23-2026-10-25": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    2891
+   ]
+  ],
+  "last_alert": null
+ },
+ "NGB-BKI-2026-10-30-2026-11-01": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-BKI-2026-11-06-2026-11-08": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-BKI-2026-11-13-2026-11-15": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    3291
+   ]
+  ],
+  "last_alert": null
+ },
+ "NGB-BKI-2026-11-20-2026-11-22": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    2113
+   ]
+  ],
+  "last_alert": null
+ },
+ "NGB-BKI-2026-11-27-2026-11-29": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    2088
+   ]
+  ],
+  "last_alert": null
+ },
+ "NGB-BKI-2026-12-04-2026-12-06": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    1936
+   ]
+  ],
+  "last_alert": "2026-10-13 05:13"
+ },
+ "NGB-BKI-2026-12-31-2027-01-03": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    3375
+   ]
+  ],
+  "last_alert": null
+ },
+ "NGB-BKI-2027-02-06-2027-02-14": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    4179
+   ]
+  ],
+  "last_alert": null
+ },
+ "NGB-KIX-2026-10-16-2026-10-18": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-KIX-2026-10-23-2026-10-25": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-KIX-2026-10-30-2026-11-01": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-KIX-2026-11-06-2026-11-08": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-KIX-2026-11-13-2026-11-15": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-KIX-2026-11-20-2026-11-22": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-KIX-2026-11-27-2026-11-29": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-KIX-2026-12-04-2026-12-06": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-KIX-2026-12-31-2027-01-03": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    4465
+   ]
+  ],
+  "last_alert": null
+ },
+ "NGB-KIX-2027-02-06-2027-02-14": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    6939
+   ]
+  ],
+  "last_alert": null
+ },
+ "NGB-FUK-2026-10-16-2026-10-18": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-FUK-2026-10-23-2026-10-25": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-FUK-2026-10-30-2026-11-01": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    4712
+   ]
+  ],
+  "last_alert": null
+ },
+ "NGB-FUK-2026-11-06-2026-11-08": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-FUK-2026-11-13-2026-11-15": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-FUK-2026-11-20-2026-11-22": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-FUK-2026-11-27-2026-11-29": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-FUK-2026-12-04-2026-12-06": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    2343
+   ]
+  ],
+  "last_alert": null
+ },
+ "NGB-FUK-2026-12-31-2027-01-03": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-FUK-2027-02-06-2027-02-14": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-TYO-2026-10-16-2026-10-18": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-TYO-2026-10-23-2026-10-25": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-TYO-2026-10-30-2026-11-01": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-TYO-2026-11-06-2026-11-08": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-TYO-2026-11-13-2026-11-15": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-TYO-2026-11-20-2026-11-22": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-TYO-2026-11-27-2026-11-29": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-TYO-2026-12-04-2026-12-06": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-TYO-2026-12-31-2027-01-03": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-TYO-2027-02-06-2027-02-14": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    6503
+   ]
+  ],
+  "last_alert": null
+ },
+ "NGB-ICN-2026-10-16-2026-10-18": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-ICN-2026-10-23-2026-10-25": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    3441
+   ]
+  ],
+  "last_alert": null
+ },
+ "NGB-ICN-2026-10-30-2026-11-01": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    3738
+   ]
+  ],
+  "last_alert": null
+ },
+ "NGB-ICN-2026-11-06-2026-11-08": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    2348
+   ]
+  ],
+  "last_alert": null
+ },
+ "NGB-ICN-2026-11-13-2026-11-15": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-ICN-2026-11-20-2026-11-22": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-ICN-2026-11-27-2026-11-29": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    2348
+   ]
+  ],
+  "last_alert": null
+ },
+ "NGB-ICN-2026-12-04-2026-12-06": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    2191
+   ]
+  ],
+  "last_alert": null
+ },
+ "NGB-ICN-2026-12-31-2027-01-03": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-ICN-2027-02-06-2027-02-14": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-PUS-2026-10-16-2026-10-18": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    5738
+   ]
+  ],
+  "last_alert": null
+ },
+ "NGB-PUS-2026-10-23-2026-10-25": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    4943
+   ]
+  ],
+  "last_alert": null
+ },
+ "NGB-PUS-2026-10-30-2026-11-01": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-PUS-2026-11-06-2026-11-08": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-PUS-2026-11-13-2026-11-15": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    3721
+   ]
+  ],
+  "last_alert": null
+ },
+ "NGB-PUS-2026-11-20-2026-11-22": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-PUS-2026-11-27-2026-11-29": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-PUS-2026-12-04-2026-12-06": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    2489
+   ]
+  ],
+  "last_alert": null
+ },
+ "NGB-PUS-2026-12-31-2027-01-03": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-PUS-2027-02-06-2027-02-14": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-BKK-2026-10-16-2026-10-18": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    2022
+   ]
+  ],
+  "last_alert": null
+ },
+ "NGB-BKK-2026-10-23-2026-10-25": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    2022
+   ]
+  ],
+  "last_alert": null
+ },
+ "NGB-BKK-2026-10-30-2026-11-01": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    1992
+   ]
+  ],
+  "last_alert": "2026-10-13 05:13"
+ },
+ "NGB-BKK-2026-11-06-2026-11-08": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-BKK-2026-11-13-2026-11-15": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-BKK-2026-11-20-2026-11-22": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    1771
+   ]
+  ],
+  "last_alert": "2026-10-13 05:13"
+ },
+ "NGB-BKK-2026-11-27-2026-11-29": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    2068
+   ]
+  ],
+  "last_alert": null
+ },
+ "NGB-BKK-2026-12-04-2026-12-06": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-BKK-2026-12-31-2027-01-03": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    2266
+   ]
+  ],
+  "last_alert": null
+ },
+ "NGB-BKK-2027-02-06-2027-02-14": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    3657
+   ]
+  ],
+  "last_alert": null
+ },
+ "NGB-CNX-2026-10-16-2026-10-18": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    3367
+   ]
+  ],
+  "last_alert": null
+ },
+ "NGB-CNX-2026-10-23-2026-10-25": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    3271
+   ]
+  ],
+  "last_alert": null
+ },
+ "NGB-CNX-2026-10-30-2026-11-01": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    3922
+   ]
+  ],
+  "last_alert": null
+ },
+ "NGB-CNX-2026-11-06-2026-11-08": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-CNX-2026-11-13-2026-11-15": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-CNX-2026-11-20-2026-11-22": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-CNX-2026-11-27-2026-11-29": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    3437
+   ]
+  ],
+  "last_alert": null
+ },
+ "NGB-CNX-2026-12-04-2026-12-06": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-CNX-2026-12-31-2027-01-03": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-CNX-2027-02-06-2027-02-14": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    5322
+   ]
+  ],
+  "last_alert": null
+ },
+ "NGB-SIN-2026-10-16-2026-10-18": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-SIN-2026-10-23-2026-10-25": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-SIN-2026-10-30-2026-11-01": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-SIN-2026-11-06-2026-11-08": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-SIN-2026-11-13-2026-11-15": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-SIN-2026-11-20-2026-11-22": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-SIN-2026-11-27-2026-11-29": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-SIN-2026-12-04-2026-12-06": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-SIN-2026-12-31-2027-01-03": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-SIN-2027-02-06-2027-02-14": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-KUL-2026-10-16-2026-10-18": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-KUL-2026-10-23-2026-10-25": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-KUL-2026-10-30-2026-11-01": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-KUL-2026-11-06-2026-11-08": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-KUL-2026-11-13-2026-11-15": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-KUL-2026-11-20-2026-11-22": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-KUL-2026-11-27-2026-11-29": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-KUL-2026-12-04-2026-12-06": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-KUL-2026-12-31-2027-01-03": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-KUL-2027-02-06-2027-02-14": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-TPE-2026-10-16-2026-10-18": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    5868
+   ]
+  ],
+  "last_alert": null
+ },
+ "NGB-TPE-2026-10-23-2026-10-25": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-TPE-2026-10-30-2026-11-01": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    2005
+   ]
+  ],
+  "last_alert": null
+ },
+ "NGB-TPE-2026-11-06-2026-11-08": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    3438
+   ]
+  ],
+  "last_alert": null
+ },
+ "NGB-TPE-2026-11-13-2026-11-15": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    3766
+   ]
+  ],
+  "last_alert": null
+ },
+ "NGB-TPE-2026-11-20-2026-11-22": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-TPE-2026-11-27-2026-11-29": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    2456
+   ]
+  ],
+  "last_alert": null
+ },
+ "NGB-TPE-2026-12-04-2026-12-06": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-TPE-2026-12-31-2027-01-03": {
+  "series": [],
+  "last_alert": null
+ },
+ "NGB-TPE-2027-02-06-2027-02-14": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    2744
+   ]
+  ],
+  "last_alert": null
+ },
+ "HGH-OKA-2026-10-16-2026-10-18": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-OKA-2026-10-23-2026-10-25": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-OKA-2026-10-30-2026-11-01": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-OKA-2026-11-06-2026-11-08": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-OKA-2026-11-13-2026-11-15": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-OKA-2026-11-20-2026-11-22": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-OKA-2026-11-27-2026-11-29": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-OKA-2026-12-04-2026-12-06": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-OKA-2026-12-31-2027-01-03": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-OKA-2027-02-06-2027-02-14": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-CJU-2026-10-16-2026-10-18": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-CJU-2026-10-23-2026-10-25": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-CJU-2026-10-30-2026-11-01": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-CJU-2026-11-06-2026-11-08": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-CJU-2026-11-13-2026-11-15": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-CJU-2026-11-20-2026-11-22": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-CJU-2026-11-27-2026-11-29": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-CJU-2026-12-04-2026-12-06": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-CJU-2026-12-31-2027-01-03": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-CJU-2027-02-06-2027-02-14": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-MPH-2026-10-16-2026-10-18": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-MPH-2026-10-23-2026-10-25": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-MPH-2026-10-30-2026-11-01": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-MPH-2026-11-06-2026-11-08": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-MPH-2026-11-13-2026-11-15": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-MPH-2026-11-20-2026-11-22": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-MPH-2026-11-27-2026-11-29": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-MPH-2026-12-04-2026-12-06": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-MPH-2026-12-31-2027-01-03": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-MPH-2027-02-06-2027-02-14": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-KLO-2026-10-16-2026-10-18": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-KLO-2026-10-23-2026-10-25": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-KLO-2026-10-30-2026-11-01": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-KLO-2026-11-06-2026-11-08": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-KLO-2026-11-13-2026-11-15": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-KLO-2026-11-20-2026-11-22": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-KLO-2026-11-27-2026-11-29": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-KLO-2026-12-04-2026-12-06": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-KLO-2026-12-31-2027-01-03": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-KLO-2027-02-06-2027-02-14": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-CEB-2026-10-16-2026-10-18": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-CEB-2026-10-23-2026-10-25": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-CEB-2026-10-30-2026-11-01": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-CEB-2026-11-06-2026-11-08": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-CEB-2026-11-13-2026-11-15": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-CEB-2026-11-20-2026-11-22": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-CEB-2026-11-27-2026-11-29": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-CEB-2026-12-04-2026-12-06": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-CEB-2026-12-31-2027-01-03": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-CEB-2027-02-06-2027-02-14": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-HKT-2026-10-16-2026-10-18": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-HKT-2026-10-23-2026-10-25": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-HKT-2026-10-30-2026-11-01": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-HKT-2026-11-06-2026-11-08": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-HKT-2026-11-13-2026-11-15": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-HKT-2026-11-20-2026-11-22": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-HKT-2026-11-27-2026-11-29": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-HKT-2026-12-04-2026-12-06": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-HKT-2026-12-31-2027-01-03": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-HKT-2027-02-06-2027-02-14": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-USM-2026-10-16-2026-10-18": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-USM-2026-10-23-2026-10-25": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-USM-2026-10-30-2026-11-01": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-USM-2026-11-06-2026-11-08": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-USM-2026-11-13-2026-11-15": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-USM-2026-11-20-2026-11-22": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-USM-2026-11-27-2026-11-29": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-USM-2026-12-04-2026-12-06": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-USM-2026-12-31-2027-01-03": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-USM-2027-02-06-2027-02-14": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-PQC-2026-10-16-2026-10-18": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-PQC-2026-10-23-2026-10-25": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-PQC-2026-10-30-2026-11-01": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-PQC-2026-11-06-2026-11-08": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-PQC-2026-11-13-2026-11-15": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-PQC-2026-11-20-2026-11-22": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-PQC-2026-11-27-2026-11-29": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-PQC-2026-12-04-2026-12-06": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-PQC-2026-12-31-2027-01-03": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-PQC-2027-02-06-2027-02-14": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-DAD-2026-10-16-2026-10-18": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-DAD-2026-10-23-2026-10-25": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-DAD-2026-10-30-2026-11-01": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-DAD-2026-11-06-2026-11-08": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-DAD-2026-11-13-2026-11-15": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-DAD-2026-11-20-2026-11-22": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-DAD-2026-11-27-2026-11-29": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-DAD-2026-12-04-2026-12-06": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-DAD-2026-12-31-2027-01-03": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-DAD-2027-02-06-2027-02-14": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-CXR-2026-10-16-2026-10-18": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-CXR-2026-10-23-2026-10-25": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-CXR-2026-10-30-2026-11-01": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-CXR-2026-11-06-2026-11-08": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-CXR-2026-11-13-2026-11-15": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-CXR-2026-11-20-2026-11-22": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-CXR-2026-11-27-2026-11-29": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-CXR-2026-12-04-2026-12-06": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-CXR-2026-12-31-2027-01-03": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-CXR-2027-02-06-2027-02-14": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-DPS-2026-10-16-2026-10-18": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-DPS-2026-10-23-2026-10-25": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-DPS-2026-10-30-2026-11-01": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-DPS-2026-11-06-2026-11-08": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-DPS-2026-11-13-2026-11-15": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-DPS-2026-11-20-2026-11-22": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-DPS-2026-11-27-2026-11-29": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-DPS-2026-12-04-2026-12-06": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-DPS-2026-12-31-2027-01-03": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-DPS-2027-02-06-2027-02-14": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    5964
+   ]
+  ],
+  "last_alert": null
+ },
+ "HGH-BKI-2026-10-16-2026-10-18": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-BKI-2026-10-23-2026-10-25": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-BKI-2026-10-30-2026-11-01": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-BKI-2026-11-06-2026-11-08": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-BKI-2026-11-13-2026-11-15": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-BKI-2026-11-20-2026-11-22": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-BKI-2026-11-27-2026-11-29": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-BKI-2026-12-04-2026-12-06": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-BKI-2026-12-31-2027-01-03": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-BKI-2027-02-06-2027-02-14": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-KIX-2026-10-16-2026-10-18": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-KIX-2026-10-23-2026-10-25": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-KIX-2026-10-30-2026-11-01": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-KIX-2026-11-06-2026-11-08": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    3385
+   ]
+  ],
+  "last_alert": null
+ },
+ "HGH-KIX-2026-11-13-2026-11-15": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    3125
+   ]
+  ],
+  "last_alert": null
+ },
+ "HGH-KIX-2026-11-20-2026-11-22": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-KIX-2026-11-27-2026-11-29": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    2985
+   ]
+  ],
+  "last_alert": null
+ },
+ "HGH-KIX-2026-12-04-2026-12-06": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-KIX-2026-12-31-2027-01-03": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-KIX-2027-02-06-2027-02-14": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-FUK-2026-10-16-2026-10-18": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-FUK-2026-10-23-2026-10-25": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-FUK-2026-10-30-2026-11-01": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-FUK-2026-11-06-2026-11-08": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-FUK-2026-11-13-2026-11-15": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-FUK-2026-11-20-2026-11-22": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-FUK-2026-11-27-2026-11-29": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-FUK-2026-12-04-2026-12-06": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-FUK-2026-12-31-2027-01-03": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-FUK-2027-02-06-2027-02-14": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-TYO-2026-10-16-2026-10-18": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-TYO-2026-10-23-2026-10-25": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-TYO-2026-10-30-2026-11-01": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-TYO-2026-11-06-2026-11-08": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-TYO-2026-11-13-2026-11-15": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-TYO-2026-11-20-2026-11-22": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-TYO-2026-11-27-2026-11-29": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    3219
+   ]
+  ],
+  "last_alert": null
+ },
+ "HGH-TYO-2026-12-04-2026-12-06": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-TYO-2026-12-31-2027-01-03": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-TYO-2027-02-06-2027-02-14": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-ICN-2026-10-16-2026-10-18": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-ICN-2026-10-23-2026-10-25": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-ICN-2026-10-30-2026-11-01": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-ICN-2026-11-06-2026-11-08": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-ICN-2026-11-13-2026-11-15": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-ICN-2026-11-20-2026-11-22": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-ICN-2026-11-27-2026-11-29": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-ICN-2026-12-04-2026-12-06": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-ICN-2026-12-31-2027-01-03": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-ICN-2027-02-06-2027-02-14": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-PUS-2026-10-16-2026-10-18": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-PUS-2026-10-23-2026-10-25": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-PUS-2026-10-30-2026-11-01": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-PUS-2026-11-06-2026-11-08": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-PUS-2026-11-13-2026-11-15": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-PUS-2026-11-20-2026-11-22": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-PUS-2026-11-27-2026-11-29": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-PUS-2026-12-04-2026-12-06": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-PUS-2026-12-31-2027-01-03": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-PUS-2027-02-06-2027-02-14": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-BKK-2026-10-16-2026-10-18": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-BKK-2026-10-23-2026-10-25": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-BKK-2026-10-30-2026-11-01": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-BKK-2026-11-06-2026-11-08": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-BKK-2026-11-13-2026-11-15": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-BKK-2026-11-20-2026-11-22": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-BKK-2026-11-27-2026-11-29": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-BKK-2026-12-04-2026-12-06": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-BKK-2026-12-31-2027-01-03": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    2412
+   ]
+  ],
+  "last_alert": null
+ },
+ "HGH-BKK-2027-02-06-2027-02-14": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-CNX-2026-10-16-2026-10-18": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-CNX-2026-10-23-2026-10-25": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-CNX-2026-10-30-2026-11-01": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-CNX-2026-11-06-2026-11-08": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-CNX-2026-11-13-2026-11-15": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-CNX-2026-11-20-2026-11-22": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-CNX-2026-11-27-2026-11-29": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-CNX-2026-12-04-2026-12-06": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-CNX-2026-12-31-2027-01-03": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-CNX-2027-02-06-2027-02-14": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-SIN-2026-10-16-2026-10-18": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-SIN-2026-10-23-2026-10-25": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-SIN-2026-10-30-2026-11-01": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    1853
+   ]
+  ],
+  "last_alert": "2026-10-13 05:13"
+ },
+ "HGH-SIN-2026-11-06-2026-11-08": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-SIN-2026-11-13-2026-11-15": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    2116
+   ]
+  ],
+  "last_alert": null
+ },
+ "HGH-SIN-2026-11-20-2026-11-22": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-SIN-2026-11-27-2026-11-29": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    2576
+   ]
+  ],
+  "last_alert": null
+ },
+ "HGH-SIN-2026-12-04-2026-12-06": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    2689
+   ]
+  ],
+  "last_alert": null
+ },
+ "HGH-SIN-2026-12-31-2027-01-03": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    3804
+   ]
+  ],
+  "last_alert": null
+ },
+ "HGH-SIN-2027-02-06-2027-02-14": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-KUL-2026-10-16-2026-10-18": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-KUL-2026-10-23-2026-10-25": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-KUL-2026-10-30-2026-11-01": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-KUL-2026-11-06-2026-11-08": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-KUL-2026-11-13-2026-11-15": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-KUL-2026-11-20-2026-11-22": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-KUL-2026-11-27-2026-11-29": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-KUL-2026-12-04-2026-12-06": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-KUL-2026-12-31-2027-01-03": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-KUL-2027-02-06-2027-02-14": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-TPE-2026-10-16-2026-10-18": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-TPE-2026-10-23-2026-10-25": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-TPE-2026-10-30-2026-11-01": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-TPE-2026-11-06-2026-11-08": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-TPE-2026-11-13-2026-11-15": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-TPE-2026-11-20-2026-11-22": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-TPE-2026-11-27-2026-11-29": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-TPE-2026-12-04-2026-12-06": {
+  "series": [],
+  "last_alert": null
+ },
+ "HGH-TPE-2026-12-31-2027-01-03": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    2646
+   ]
+  ],
+  "last_alert": null
+ },
+ "HGH-TPE-2027-02-06-2027-02-14": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-OKA-2026-10-16-2026-10-18": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-OKA-2026-10-23-2026-10-25": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-OKA-2026-10-30-2026-11-01": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-OKA-2026-11-06-2026-11-08": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-OKA-2026-11-13-2026-11-15": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-OKA-2026-11-20-2026-11-22": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-OKA-2026-11-27-2026-11-29": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-OKA-2026-12-04-2026-12-06": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-OKA-2026-12-31-2027-01-03": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-OKA-2027-02-06-2027-02-14": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-CJU-2026-10-16-2026-10-18": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-CJU-2026-10-23-2026-10-25": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-CJU-2026-10-30-2026-11-01": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-CJU-2026-11-06-2026-11-08": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-CJU-2026-11-13-2026-11-15": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-CJU-2026-11-20-2026-11-22": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-CJU-2026-11-27-2026-11-29": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-CJU-2026-12-04-2026-12-06": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-CJU-2026-12-31-2027-01-03": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-CJU-2027-02-06-2027-02-14": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-MPH-2026-10-16-2026-10-18": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-MPH-2026-10-23-2026-10-25": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    3153
+   ]
+  ],
+  "last_alert": null
+ },
+ "PVG-MPH-2026-10-30-2026-11-01": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-MPH-2026-11-06-2026-11-08": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-MPH-2026-11-13-2026-11-15": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-MPH-2026-11-20-2026-11-22": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-MPH-2026-11-27-2026-11-29": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-MPH-2026-12-04-2026-12-06": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-MPH-2026-12-31-2027-01-03": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-MPH-2027-02-06-2027-02-14": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-KLO-2026-10-16-2026-10-18": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-KLO-2026-10-23-2026-10-25": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-KLO-2026-10-30-2026-11-01": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-KLO-2026-11-06-2026-11-08": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-KLO-2026-11-13-2026-11-15": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-KLO-2026-11-20-2026-11-22": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-KLO-2026-11-27-2026-11-29": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-KLO-2026-12-04-2026-12-06": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-KLO-2026-12-31-2027-01-03": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-KLO-2027-02-06-2027-02-14": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-CEB-2026-10-16-2026-10-18": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-CEB-2026-10-23-2026-10-25": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-CEB-2026-10-30-2026-11-01": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-CEB-2026-11-06-2026-11-08": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    2058
+   ]
+  ],
+  "last_alert": null
+ },
+ "PVG-CEB-2026-11-13-2026-11-15": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    2608
+   ]
+  ],
+  "last_alert": null
+ },
+ "PVG-CEB-2026-11-20-2026-11-22": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-CEB-2026-11-27-2026-11-29": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-CEB-2026-12-04-2026-12-06": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    2058
+   ]
+  ],
+  "last_alert": null
+ },
+ "PVG-CEB-2026-12-31-2027-01-03": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-CEB-2027-02-06-2027-02-14": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    3615
+   ]
+  ],
+  "last_alert": null
+ },
+ "PVG-HKT-2026-10-16-2026-10-18": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-HKT-2026-10-23-2026-10-25": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-HKT-2026-10-30-2026-11-01": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-HKT-2026-11-06-2026-11-08": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-HKT-2026-11-13-2026-11-15": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-HKT-2026-11-20-2026-11-22": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-HKT-2026-11-27-2026-11-29": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-HKT-2026-12-04-2026-12-06": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-HKT-2026-12-31-2027-01-03": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-HKT-2027-02-06-2027-02-14": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-USM-2026-10-16-2026-10-18": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-USM-2026-10-23-2026-10-25": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-USM-2026-10-30-2026-11-01": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-USM-2026-11-06-2026-11-08": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-USM-2026-11-13-2026-11-15": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-USM-2026-11-20-2026-11-22": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-USM-2026-11-27-2026-11-29": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-USM-2026-12-04-2026-12-06": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-USM-2026-12-31-2027-01-03": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-USM-2027-02-06-2027-02-14": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-PQC-2026-10-16-2026-10-18": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-PQC-2026-10-23-2026-10-25": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-PQC-2026-10-30-2026-11-01": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-PQC-2026-11-06-2026-11-08": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-PQC-2026-11-13-2026-11-15": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-PQC-2026-11-20-2026-11-22": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-PQC-2026-11-27-2026-11-29": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-PQC-2026-12-04-2026-12-06": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-PQC-2026-12-31-2027-01-03": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    2527
+   ]
+  ],
+  "last_alert": null
+ },
+ "PVG-PQC-2027-02-06-2027-02-14": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-DAD-2026-10-16-2026-10-18": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-DAD-2026-10-23-2026-10-25": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-DAD-2026-10-30-2026-11-01": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-DAD-2026-11-06-2026-11-08": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-DAD-2026-11-13-2026-11-15": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-DAD-2026-11-20-2026-11-22": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-DAD-2026-11-27-2026-11-29": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-DAD-2026-12-04-2026-12-06": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-DAD-2026-12-31-2027-01-03": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-DAD-2027-02-06-2027-02-14": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-CXR-2026-10-16-2026-10-18": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-CXR-2026-10-23-2026-10-25": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-CXR-2026-10-30-2026-11-01": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-CXR-2026-11-06-2026-11-08": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-CXR-2026-11-13-2026-11-15": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-CXR-2026-11-20-2026-11-22": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-CXR-2026-11-27-2026-11-29": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-CXR-2026-12-04-2026-12-06": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    1857
+   ]
+  ],
+  "last_alert": "2026-10-13 05:13"
+ },
+ "PVG-CXR-2026-12-31-2027-01-03": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-CXR-2027-02-06-2027-02-14": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    4045
+   ]
+  ],
+  "last_alert": null
+ },
+ "PVG-DPS-2026-10-16-2026-10-18": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-DPS-2026-10-23-2026-10-25": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-DPS-2026-10-30-2026-11-01": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-DPS-2026-11-06-2026-11-08": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-DPS-2026-11-13-2026-11-15": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-DPS-2026-11-20-2026-11-22": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-DPS-2026-11-27-2026-11-29": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    2238
+   ]
+  ],
+  "last_alert": null
+ },
+ "PVG-DPS-2026-12-04-2026-12-06": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    2238
+   ]
+  ],
+  "last_alert": null
+ },
+ "PVG-DPS-2026-12-31-2027-01-03": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-DPS-2027-02-06-2027-02-14": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-BKI-2026-10-16-2026-10-18": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-BKI-2026-10-23-2026-10-25": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-BKI-2026-10-30-2026-11-01": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    2661
+   ]
+  ],
+  "last_alert": null
+ },
+ "PVG-BKI-2026-11-06-2026-11-08": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    4165
+   ]
+  ],
+  "last_alert": null
+ },
+ "PVG-BKI-2026-11-13-2026-11-15": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    3391
+   ]
+  ],
+  "last_alert": null
+ },
+ "PVG-BKI-2026-11-20-2026-11-22": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    2409
+   ]
+  ],
+  "last_alert": null
+ },
+ "PVG-BKI-2026-11-27-2026-11-29": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    4101
+   ]
+  ],
+  "last_alert": null
+ },
+ "PVG-BKI-2026-12-04-2026-12-06": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-BKI-2026-12-31-2027-01-03": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-BKI-2027-02-06-2027-02-14": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-KIX-2026-10-16-2026-10-18": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-KIX-2026-10-23-2026-10-25": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-KIX-2026-10-30-2026-11-01": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-KIX-2026-11-06-2026-11-08": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-KIX-2026-11-13-2026-11-15": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-KIX-2026-11-20-2026-11-22": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-KIX-2026-11-27-2026-11-29": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-KIX-2026-12-04-2026-12-06": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-KIX-2026-12-31-2027-01-03": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-KIX-2027-02-06-2027-02-14": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-FUK-2026-10-16-2026-10-18": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-FUK-2026-10-23-2026-10-25": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-FUK-2026-10-30-2026-11-01": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    2981
+   ]
+  ],
+  "last_alert": null
+ },
+ "PVG-FUK-2026-11-06-2026-11-08": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-FUK-2026-11-13-2026-11-15": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-FUK-2026-11-20-2026-11-22": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-FUK-2026-11-27-2026-11-29": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-FUK-2026-12-04-2026-12-06": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-FUK-2026-12-31-2027-01-03": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-FUK-2027-02-06-2027-02-14": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    7698
+   ]
+  ],
+  "last_alert": null
+ },
+ "PVG-TYO-2026-10-16-2026-10-18": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-TYO-2026-10-23-2026-10-25": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-TYO-2026-10-30-2026-11-01": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-TYO-2026-11-06-2026-11-08": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-TYO-2026-11-13-2026-11-15": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-TYO-2026-11-20-2026-11-22": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-TYO-2026-11-27-2026-11-29": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-TYO-2026-12-04-2026-12-06": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-TYO-2026-12-31-2027-01-03": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-TYO-2027-02-06-2027-02-14": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-ICN-2026-10-16-2026-10-18": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-ICN-2026-10-23-2026-10-25": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-ICN-2026-10-30-2026-11-01": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-ICN-2026-11-06-2026-11-08": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-ICN-2026-11-13-2026-11-15": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-ICN-2026-11-20-2026-11-22": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-ICN-2026-11-27-2026-11-29": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-ICN-2026-12-04-2026-12-06": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-ICN-2026-12-31-2027-01-03": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-ICN-2027-02-06-2027-02-14": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-PUS-2026-10-16-2026-10-18": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    4769
+   ]
+  ],
+  "last_alert": null
+ },
+ "PVG-PUS-2026-10-23-2026-10-25": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    5364
+   ]
+  ],
+  "last_alert": null
+ },
+ "PVG-PUS-2026-10-30-2026-11-01": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    3862
+   ]
+  ],
+  "last_alert": null
+ },
+ "PVG-PUS-2026-11-06-2026-11-08": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-PUS-2026-11-13-2026-11-15": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    3148
+   ]
+  ],
+  "last_alert": null
+ },
+ "PVG-PUS-2026-11-20-2026-11-22": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    2748
+   ]
+  ],
+  "last_alert": null
+ },
+ "PVG-PUS-2026-11-27-2026-11-29": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-PUS-2026-12-04-2026-12-06": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-PUS-2026-12-31-2027-01-03": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    4492
+   ]
+  ],
+  "last_alert": null
+ },
+ "PVG-PUS-2027-02-06-2027-02-14": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    3243
+   ]
+  ],
+  "last_alert": null
+ },
+ "PVG-BKK-2026-10-16-2026-10-18": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-BKK-2026-10-23-2026-10-25": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-BKK-2026-10-30-2026-11-01": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-BKK-2026-11-06-2026-11-08": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-BKK-2026-11-13-2026-11-15": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-BKK-2026-11-20-2026-11-22": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-BKK-2026-11-27-2026-11-29": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-BKK-2026-12-04-2026-12-06": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-BKK-2026-12-31-2027-01-03": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-BKK-2027-02-06-2027-02-14": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-CNX-2026-10-16-2026-10-18": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    2970
+   ]
+  ],
+  "last_alert": null
+ },
+ "PVG-CNX-2026-10-23-2026-10-25": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-CNX-2026-10-30-2026-11-01": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-CNX-2026-11-06-2026-11-08": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    2472
+   ]
+  ],
+  "last_alert": null
+ },
+ "PVG-CNX-2026-11-13-2026-11-15": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    2642
+   ]
+  ],
+  "last_alert": null
+ },
+ "PVG-CNX-2026-11-20-2026-11-22": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-CNX-2026-11-27-2026-11-29": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    3012
+   ]
+  ],
+  "last_alert": null
+ },
+ "PVG-CNX-2026-12-04-2026-12-06": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-CNX-2026-12-31-2027-01-03": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-CNX-2027-02-06-2027-02-14": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    4450
+   ]
+  ],
+  "last_alert": null
+ },
+ "PVG-SIN-2026-10-16-2026-10-18": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-SIN-2026-10-23-2026-10-25": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-SIN-2026-10-30-2026-11-01": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-SIN-2026-11-06-2026-11-08": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-SIN-2026-11-13-2026-11-15": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-SIN-2026-11-20-2026-11-22": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-SIN-2026-11-27-2026-11-29": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-SIN-2026-12-04-2026-12-06": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-SIN-2026-12-31-2027-01-03": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-SIN-2027-02-06-2027-02-14": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-KUL-2026-10-16-2026-10-18": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-KUL-2026-10-23-2026-10-25": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-KUL-2026-10-30-2026-11-01": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-KUL-2026-11-06-2026-11-08": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-KUL-2026-11-13-2026-11-15": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-KUL-2026-11-20-2026-11-22": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-KUL-2026-11-27-2026-11-29": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-KUL-2026-12-04-2026-12-06": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-KUL-2026-12-31-2027-01-03": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-KUL-2027-02-06-2027-02-14": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-TPE-2026-10-16-2026-10-18": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-TPE-2026-10-23-2026-10-25": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-TPE-2026-10-30-2026-11-01": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-TPE-2026-11-06-2026-11-08": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-TPE-2026-11-13-2026-11-15": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-TPE-2026-11-20-2026-11-22": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    2005
+   ]
+  ],
+  "last_alert": null
+ },
+ "PVG-TPE-2026-11-27-2026-11-29": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    2005
+   ]
+  ],
+  "last_alert": null
+ },
+ "PVG-TPE-2026-12-04-2026-12-06": {
+  "series": [],
+  "last_alert": null
+ },
+ "PVG-TPE-2026-12-31-2027-01-03": {
+  "series": [
+   [
+    "2026-10-13 05:13",
+    2238
+   ]
+  ],
+  "last_alert": null
+ },
+ "PVG-TPE-2027-02-06-2027-02-14": {
+  "series": [],
+  "last_alert": null
+ }
+}

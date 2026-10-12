@@ -1,0 +1,908 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>特价机票雷达</title>
+<style>
+:root{--brand:#166BC7;--brand-50:#E8F2FB;--brand-100:#C6DEF5;--brand-700:#0E488A;--t1:#1F2329;--t2:#4E5969;--t3:#86909C;--line:#E5E6EB;--bg:#F5F7FA}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--t1);font:14px/1.5 -apple-system,"PingFang SC","Microsoft YaHei",sans-serif}
+.wrap{max-width:1100px;margin:0 auto;padding:24px 16px}
+h1{font-size:20px;margin:0 0 4px}.sub{color:var(--t3);font-size:12px;margin-bottom:20px}
+h2{font-size:15px;color:var(--t2);margin:28px 0 12px;font-weight:600}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:12px}
+.card{display:block;background:#fff;border:1px solid var(--line);border-radius:10px;padding:14px;text-decoration:none;color:inherit;transition:.15s}
+.card:hover{border-color:var(--brand);box-shadow:0 4px 14px rgba(22,107,199,.12)}
+.dest{font-weight:600;font-size:15px}.code{font-size:11px;color:var(--t3);margin-left:6px;font-weight:400}
+.price{color:var(--brand);font-size:26px;font-weight:700;margin:6px 0 2px}.price small{font-size:11px;color:var(--t3);font-weight:400;margin-left:4px}
+.meta{font-size:12px;color:var(--t2)}.foot{display:flex;justify-content:space-between;align-items:center;margin-top:8px}
+.down{color:#00A13B;font-weight:600}.up{color:#F53F3F}.muted{color:var(--t3)}
+table{width:100%;border-collapse:collapse;background:#fff;border:1px solid var(--line);border-radius:10px;overflow:hidden;font-size:13px}
+th{background:var(--brand-50);color:var(--t2);font-weight:600;text-align:left;padding:9px 10px}td{padding:8px 10px;border-top:1px solid var(--line)}
+.num{text-align:right}a{color:var(--brand)}tr:hover td{background:#FAFBFC}
+@media(max-width:640px){th:nth-child(4),td:nth-child(4),th:nth-child(7),td:nth-child(7),th:nth-child(8),td:nth-child(8){display:none}}
+</style></head><body><div class="wrap">
+<h1>✈️ 特价机票雷达</h1>
+<div class="sub">更新于 2026-10-13 05:13（北京时间） · 出发地 NGB / HGH / PVG · 共 112 条有价结果 · 价格为 Google Flights 单人经济舱往返参考价</div>
+<h2>各目的地当前最低价</h2>
+<div class="grid"><a class="card" href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTAtMTYoAWoFEgNOR0JyBRIDQ0pVGhwSCjIwMjYtMTAtMTgoAWoFEgNDSlVyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">
+  <div class="dest">济州岛<span class="code">CJU</span></div>
+  <div class="price">¥1273<small>往返</small></div>
+  <div class="meta">NGB 出发 · 2026-10-16 ~ 2026-10-18<br>周末 Fri→Sun · 春航</div>
+  <div class="foot"><span class="muted">新</span></div>
+</a><a class="card" href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTEtMjAoAWoFEgNOR0JyBRIDQktLGhwSCjIwMjYtMTEtMjIoAWoFEgNCS0tyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">
+  <div class="dest">曼谷<span class="code">BKK</span></div>
+  <div class="price">¥1771<small>往返</small></div>
+  <div class="meta">NGB 出发 · 2026-11-20 ~ 2026-11-22<br>周末 Fri→Sun · 春航</div>
+  <div class="foot"><span class="muted">新</span></div>
+</a><a class="card" href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTAtMzAoAWoFEgNIR0hyBRIDU0lOGhwSCjIwMjYtMTEtMDEoAWoFEgNTSU5yBRIDSEdIQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">
+  <div class="dest">新加坡<span class="code">SIN</span></div>
+  <div class="price">¥1853<small>往返</small></div>
+  <div class="meta">HGH 出发 · 2026-10-30 ~ 2026-11-01<br>周末 Fri→Sun · 海航</div>
+  <div class="foot"><span class="muted">新</span></div>
+</a><a class="card" href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTItMDQoAWoFEgNQVkdyBRIDQ1hSGhwSCjIwMjYtMTItMDYoAWoFEgNDWFJyBRIDUFZHQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">
+  <div class="dest">芽庄<span class="code">CXR</span></div>
+  <div class="price">¥1857<small>往返</small></div>
+  <div class="meta">PVG 出发 · 2026-12-04 ~ 2026-12-06<br>周末 Fri→Sun · 越捷</div>
+  <div class="foot"><span class="muted">新</span></div>
+</a><a class="card" href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTItMDQoAWoFEgNOR0JyBRIDQktJGhwSCjIwMjYtMTItMDYoAWoFEgNCS0lyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">
+  <div class="dest">沙巴·亚庇<span class="code">BKI</span></div>
+  <div class="price">¥1936<small>往返</small></div>
+  <div class="meta">NGB 出发 · 2026-12-04 ~ 2026-12-06<br>周末 Fri→Sun · 香港快运航空</div>
+  <div class="foot"><span class="muted">新</span></div>
+</a><a class="card" href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTEtMjAoAWoFEgNOR0JyBRIDREFEGhwSCjIwMjYtMTEtMjIoAWoFEgNEQURyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">
+  <div class="dest">岘港<span class="code">DAD</span></div>
+  <div class="price">¥2000<small>往返</small></div>
+  <div class="meta">NGB 出发 · 2026-11-20 ~ 2026-11-22<br>周末 Fri→Sun · 香港快运航空</div>
+  <div class="foot"><span class="muted">新</span></div>
+</a><a class="card" href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTAtMzAoAWoFEgNOR0JyBRIDVFBFGhwSCjIwMjYtMTEtMDEoAWoFEgNUUEVyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">
+  <div class="dest">台北<span class="code">TPE</span></div>
+  <div class="price">¥2005<small>往返</small></div>
+  <div class="meta">NGB 出发 · 2026-10-30 ~ 2026-11-01<br>周末 Fri→Sun · 国泰航空</div>
+  <div class="foot"><span class="muted">新</span></div>
+</a><a class="card" href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTEtMDYoAWoFEgNQVkdyBRIDQ0VCGhwSCjIwMjYtMTEtMDgoAWoFEgNDRUJyBRIDUFZHQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">
+  <div class="dest">宿务<span class="code">CEB</span></div>
+  <div class="price">¥2058<small>往返</small></div>
+  <div class="meta">PVG 出发 · 2026-11-06 ~ 2026-11-08<br>周末 Fri→Sun · 国泰航空</div>
+  <div class="foot"><span class="muted">新</span></div>
+</a><a class="card" href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTItMDQoAWoFEgNOR0JyBRIDSUNOGhwSCjIwMjYtMTItMDYoAWoFEgNJQ05yBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">
+  <div class="dest">首尔<span class="code">ICN</span></div>
+  <div class="price">¥2191<small>往返</small></div>
+  <div class="meta">NGB 出发 · 2026-12-04 ~ 2026-12-06<br>周末 Fri→Sun · 香港快运航空</div>
+  <div class="foot"><span class="muted">新</span></div>
+</a><a class="card" href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTEtMjAoAWoFEgNOR0JyBRIDUFFDGhwSCjIwMjYtMTEtMjIoAWoFEgNQUUNyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">
+  <div class="dest">富国岛<span class="code">PQC</span></div>
+  <div class="price">¥2222<small>往返</small></div>
+  <div class="meta">NGB 出发 · 2026-11-20 ~ 2026-11-22<br>周末 Fri→Sun · 香港快运航空</div>
+  <div class="foot"><span class="muted">新</span></div>
+</a><a class="card" href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTEtMjcoAWoFEgNQVkdyBRIDRFBTGhwSCjIwMjYtMTEtMjkoAWoFEgNEUFNyBRIDUFZHQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">
+  <div class="dest">巴厘岛<span class="code">DPS</span></div>
+  <div class="price">¥2238<small>往返</small></div>
+  <div class="meta">PVG 出发 · 2026-11-27 ~ 2026-11-29<br>周末 Fri→Sun · 国泰航空</div>
+  <div class="foot"><span class="muted">新</span></div>
+</a><a class="card" href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTItMDQoAWoFEgNOR0JyBRIDRlVLGhwSCjIwMjYtMTItMDYoAWoFEgNGVUtyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">
+  <div class="dest">福冈<span class="code">FUK</span></div>
+  <div class="price">¥2343<small>往返</small></div>
+  <div class="meta">NGB 出发 · 2026-12-04 ~ 2026-12-06<br>周末 Fri→Sun · 香港快运航空</div>
+  <div class="foot"><span class="muted">新</span></div>
+</a><a class="card" href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTEtMDYoAWoFEgNQVkdyBRIDQ05YGhwSCjIwMjYtMTEtMDgoAWoFEgNDTlhyBRIDUFZHQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">
+  <div class="dest">清迈<span class="code">CNX</span></div>
+  <div class="price">¥2472<small>往返</small></div>
+  <div class="meta">PVG 出发 · 2026-11-06 ~ 2026-11-08<br>周末 Fri→Sun · 南航</div>
+  <div class="foot"><span class="muted">新</span></div>
+</a><a class="card" href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTItMDQoAWoFEgNOR0JyBRIDUFVTGhwSCjIwMjYtMTItMDYoAWoFEgNQVVNyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">
+  <div class="dest">釜山<span class="code">PUS</span></div>
+  <div class="price">¥2489<small>往返</small></div>
+  <div class="meta">NGB 出发 · 2026-12-04 ~ 2026-12-06<br>周末 Fri→Sun · 香港快运航空</div>
+  <div class="foot"><span class="muted">新</span></div>
+</a><a class="card" href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTItMDQoAWoFEgNOR0JyBRIDSEtUGhwSCjIwMjYtMTItMDYoAWoFEgNIS1RyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">
+  <div class="dest">普吉岛<span class="code">HKT</span></div>
+  <div class="price">¥2822<small>往返</small></div>
+  <div class="meta">NGB 出发 · 2026-12-04 ~ 2026-12-06<br>周末 Fri→Sun · 香港快运航空</div>
+  <div class="foot"><span class="muted">新</span></div>
+</a><a class="card" href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTItMDQoAWoFEgNOR0JyBRIDT0tBGhwSCjIwMjYtMTItMDYoAWoFEgNPS0FyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">
+  <div class="dest">冲绳·那霸<span class="code">OKA</span></div>
+  <div class="price">¥2847<small>往返</small></div>
+  <div class="meta">NGB 出发 · 2026-12-04 ~ 2026-12-06<br>周末 Fri→Sun · 香港快运航空</div>
+  <div class="foot"><span class="muted">新</span></div>
+</a><a class="card" href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTEtMjcoAWoFEgNIR0hyBRIDS0lYGhwSCjIwMjYtMTEtMjkoAWoFEgNLSVhyBRIDSEdIQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">
+  <div class="dest">大阪<span class="code">KIX</span></div>
+  <div class="price">¥2985<small>往返</small></div>
+  <div class="meta">HGH 出发 · 2026-11-27 ~ 2026-11-29<br>周末 Fri→Sun · 南航</div>
+  <div class="foot"><span class="muted">新</span></div>
+</a><a class="card" href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTAtMjMoAWoFEgNQVkdyBRIDTVBIGhwSCjIwMjYtMTAtMjUoAWoFEgNNUEhyBRIDUFZHQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">
+  <div class="dest">长滩岛(卡蒂克兰)<span class="code">MPH</span></div>
+  <div class="price">¥3153<small>往返</small></div>
+  <div class="meta">PVG 出发 · 2026-10-23 ~ 2026-10-25<br>周末 Fri→Sun · 宿航</div>
+  <div class="foot"><span class="muted">新</span></div>
+</a><a class="card" href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTEtMjcoAWoFEgNIR0hyBRIDVFlPGhwSCjIwMjYtMTEtMjkoAWoFEgNUWU9yBRIDSEdIQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">
+  <div class="dest">东京(成田/羽田)<span class="code">TYO</span></div>
+  <div class="price">¥3219<small>往返</small></div>
+  <div class="meta">HGH 出发 · 2026-11-27 ~ 2026-11-29<br>周末 Fri→Sun · 韩亚</div>
+  <div class="foot"><span class="muted">新</span></div>
+</a></div>
+<h2>全部航线明细</h2>
+<table><thead><tr><th>出发</th><th>目的地</th><th>日期</th><th>类型</th><th class="num">价格</th><th class="num">较上次</th><th class="num">历史最低</th><th>走势</th><th></th></tr></thead>
+<tbody><tr>
+  <td>NGB</td><td>济州岛</td><td>2026-10-16 ~ 2026-10-18</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥1273</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTAtMTYoAWoFEgNOR0JyBRIDQ0pVGhwSCjIwMjYtMTAtMTgoAWoFEgNDSlVyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>NGB</td><td>曼谷</td><td>2026-11-20 ~ 2026-11-22</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥1771</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTEtMjAoAWoFEgNOR0JyBRIDQktLGhwSCjIwMjYtMTEtMjIoAWoFEgNCS0tyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>HGH</td><td>新加坡</td><td>2026-10-30 ~ 2026-11-01</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥1853</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTAtMzAoAWoFEgNIR0hyBRIDU0lOGhwSCjIwMjYtMTEtMDEoAWoFEgNTSU5yBRIDSEdIQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>PVG</td><td>芽庄</td><td>2026-12-04 ~ 2026-12-06</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥1857</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTItMDQoAWoFEgNQVkdyBRIDQ1hSGhwSCjIwMjYtMTItMDYoAWoFEgNDWFJyBRIDUFZHQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>NGB</td><td>沙巴·亚庇</td><td>2026-12-04 ~ 2026-12-06</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥1936</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTItMDQoAWoFEgNOR0JyBRIDQktJGhwSCjIwMjYtMTItMDYoAWoFEgNCS0lyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>NGB</td><td>曼谷</td><td>2026-10-30 ~ 2026-11-01</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥1992</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTAtMzAoAWoFEgNOR0JyBRIDQktLGhwSCjIwMjYtMTEtMDEoAWoFEgNCS0tyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>NGB</td><td>岘港</td><td>2026-11-20 ~ 2026-11-22</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥2000</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTEtMjAoAWoFEgNOR0JyBRIDREFEGhwSCjIwMjYtMTEtMjIoAWoFEgNEQURyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>NGB</td><td>台北</td><td>2026-10-30 ~ 2026-11-01</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥2005</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTAtMzAoAWoFEgNOR0JyBRIDVFBFGhwSCjIwMjYtMTEtMDEoAWoFEgNUUEVyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>PVG</td><td>台北</td><td>2026-11-20 ~ 2026-11-22</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥2005</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTEtMjAoAWoFEgNQVkdyBRIDVFBFGhwSCjIwMjYtMTEtMjIoAWoFEgNUUEVyBRIDUFZHQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>PVG</td><td>台北</td><td>2026-11-27 ~ 2026-11-29</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥2005</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTEtMjcoAWoFEgNQVkdyBRIDVFBFGhwSCjIwMjYtMTEtMjkoAWoFEgNUUEVyBRIDUFZHQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>NGB</td><td>曼谷</td><td>2026-10-16 ~ 2026-10-18</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥2022</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTAtMTYoAWoFEgNOR0JyBRIDQktLGhwSCjIwMjYtMTAtMTgoAWoFEgNCS0tyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>NGB</td><td>曼谷</td><td>2026-10-23 ~ 2026-10-25</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥2022</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTAtMjMoAWoFEgNOR0JyBRIDQktLGhwSCjIwMjYtMTAtMjUoAWoFEgNCS0tyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>PVG</td><td>宿务</td><td>2026-11-06 ~ 2026-11-08</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥2058</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTEtMDYoAWoFEgNQVkdyBRIDQ0VCGhwSCjIwMjYtMTEtMDgoAWoFEgNDRUJyBRIDUFZHQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>PVG</td><td>宿务</td><td>2026-12-04 ~ 2026-12-06</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥2058</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTItMDQoAWoFEgNQVkdyBRIDQ0VCGhwSCjIwMjYtMTItMDYoAWoFEgNDRUJyBRIDUFZHQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>NGB</td><td>曼谷</td><td>2026-11-27 ~ 2026-11-29</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥2068</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTEtMjcoAWoFEgNOR0JyBRIDQktLGhwSCjIwMjYtMTEtMjkoAWoFEgNCS0tyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>NGB</td><td>沙巴·亚庇</td><td>2026-11-27 ~ 2026-11-29</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥2088</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTEtMjcoAWoFEgNOR0JyBRIDQktJGhwSCjIwMjYtMTEtMjkoAWoFEgNCS0lyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>NGB</td><td>沙巴·亚庇</td><td>2026-11-20 ~ 2026-11-22</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥2113</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTEtMjAoAWoFEgNOR0JyBRIDQktJGhwSCjIwMjYtMTEtMjIoAWoFEgNCS0lyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>HGH</td><td>新加坡</td><td>2026-11-13 ~ 2026-11-15</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥2116</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTEtMTMoAWoFEgNIR0hyBRIDU0lOGhwSCjIwMjYtMTEtMTUoAWoFEgNTSU5yBRIDSEdIQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>NGB</td><td>济州岛</td><td>2026-11-27 ~ 2026-11-29</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥2191</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTEtMjcoAWoFEgNOR0JyBRIDQ0pVGhwSCjIwMjYtMTEtMjkoAWoFEgNDSlVyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>NGB</td><td>首尔</td><td>2026-12-04 ~ 2026-12-06</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥2191</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTItMDQoAWoFEgNOR0JyBRIDSUNOGhwSCjIwMjYtMTItMDYoAWoFEgNJQ05yBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>NGB</td><td>富国岛</td><td>2026-11-20 ~ 2026-11-22</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥2222</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTEtMjAoAWoFEgNOR0JyBRIDUFFDGhwSCjIwMjYtMTEtMjIoAWoFEgNQUUNyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>PVG</td><td>巴厘岛</td><td>2026-11-27 ~ 2026-11-29</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥2238</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTEtMjcoAWoFEgNQVkdyBRIDRFBTGhwSCjIwMjYtMTEtMjkoAWoFEgNEUFNyBRIDUFZHQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>PVG</td><td>巴厘岛</td><td>2026-12-04 ~ 2026-12-06</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥2238</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTItMDQoAWoFEgNQVkdyBRIDRFBTGhwSCjIwMjYtMTItMDYoAWoFEgNEUFNyBRIDUFZHQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>PVG</td><td>台北</td><td>2026-12-31 ~ 2027-01-03</td>
+  <td class="muted">假期·元旦</td>
+  <td class="num"><b>¥2238</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTItMzEoAWoFEgNQVkdyBRIDVFBFGhwSCjIwMjctMDEtMDMoAWoFEgNUUEVyBRIDUFZHQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>NGB</td><td>济州岛</td><td>2026-11-06 ~ 2026-11-08</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥2245</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTEtMDYoAWoFEgNOR0JyBRIDQ0pVGhwSCjIwMjYtMTEtMDgoAWoFEgNDSlVyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>NGB</td><td>济州岛</td><td>2026-11-20 ~ 2026-11-22</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥2245</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTEtMjAoAWoFEgNOR0JyBRIDQ0pVGhwSCjIwMjYtMTEtMjIoAWoFEgNDSlVyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>NGB</td><td>曼谷</td><td>2026-12-31 ~ 2027-01-03</td>
+  <td class="muted">假期·元旦</td>
+  <td class="num"><b>¥2266</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTItMzEoAWoFEgNOR0JyBRIDQktLGhwSCjIwMjctMDEtMDMoAWoFEgNCS0tyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>NGB</td><td>福冈</td><td>2026-12-04 ~ 2026-12-06</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥2343</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTItMDQoAWoFEgNOR0JyBRIDRlVLGhwSCjIwMjYtMTItMDYoAWoFEgNGVUtyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>NGB</td><td>首尔</td><td>2026-11-06 ~ 2026-11-08</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥2348</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTEtMDYoAWoFEgNOR0JyBRIDSUNOGhwSCjIwMjYtMTEtMDgoAWoFEgNJQ05yBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>NGB</td><td>首尔</td><td>2026-11-27 ~ 2026-11-29</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥2348</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTEtMjcoAWoFEgNOR0JyBRIDSUNOGhwSCjIwMjYtMTEtMjkoAWoFEgNJQ05yBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>NGB</td><td>济州岛</td><td>2026-12-04 ~ 2026-12-06</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥2385</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTItMDQoAWoFEgNOR0JyBRIDQ0pVGhwSCjIwMjYtMTItMDYoAWoFEgNDSlVyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>PVG</td><td>沙巴·亚庇</td><td>2026-11-20 ~ 2026-11-22</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥2409</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTEtMjAoAWoFEgNQVkdyBRIDQktJGhwSCjIwMjYtMTEtMjIoAWoFEgNCS0lyBRIDUFZHQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>HGH</td><td>曼谷</td><td>2026-12-31 ~ 2027-01-03</td>
+  <td class="muted">假期·元旦</td>
+  <td class="num"><b>¥2412</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTItMzEoAWoFEgNIR0hyBRIDQktLGhwSCjIwMjctMDEtMDMoAWoFEgNCS0tyBRIDSEdIQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>NGB</td><td>台北</td><td>2026-11-27 ~ 2026-11-29</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥2456</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTEtMjcoAWoFEgNOR0JyBRIDVFBFGhwSCjIwMjYtMTEtMjkoAWoFEgNUUEVyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>PVG</td><td>清迈</td><td>2026-11-06 ~ 2026-11-08</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥2472</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTEtMDYoAWoFEgNQVkdyBRIDQ05YGhwSCjIwMjYtMTEtMDgoAWoFEgNDTlhyBRIDUFZHQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>NGB</td><td>釜山</td><td>2026-12-04 ~ 2026-12-06</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥2489</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTItMDQoAWoFEgNOR0JyBRIDUFVTGhwSCjIwMjYtMTItMDYoAWoFEgNQVVNyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>PVG</td><td>富国岛</td><td>2026-12-31 ~ 2027-01-03</td>
+  <td class="muted">假期·元旦</td>
+  <td class="num"><b>¥2527</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTItMzEoAWoFEgNQVkdyBRIDUFFDGhwSCjIwMjctMDEtMDMoAWoFEgNQUUNyBRIDUFZHQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>HGH</td><td>新加坡</td><td>2026-11-27 ~ 2026-11-29</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥2576</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTEtMjcoAWoFEgNIR0hyBRIDU0lOGhwSCjIwMjYtMTEtMjkoAWoFEgNTSU5yBRIDSEdIQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>PVG</td><td>宿务</td><td>2026-11-13 ~ 2026-11-15</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥2608</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTEtMTMoAWoFEgNQVkdyBRIDQ0VCGhwSCjIwMjYtMTEtMTUoAWoFEgNDRUJyBRIDUFZHQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>PVG</td><td>清迈</td><td>2026-11-13 ~ 2026-11-15</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥2642</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTEtMTMoAWoFEgNQVkdyBRIDQ05YGhwSCjIwMjYtMTEtMTUoAWoFEgNDTlhyBRIDUFZHQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>HGH</td><td>台北</td><td>2026-12-31 ~ 2027-01-03</td>
+  <td class="muted">假期·元旦</td>
+  <td class="num"><b>¥2646</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTItMzEoAWoFEgNIR0hyBRIDVFBFGhwSCjIwMjctMDEtMDMoAWoFEgNUUEVyBRIDSEdIQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>NGB</td><td>沙巴·亚庇</td><td>2026-10-16 ~ 2026-10-18</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥2651</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTAtMTYoAWoFEgNOR0JyBRIDQktJGhwSCjIwMjYtMTAtMTgoAWoFEgNCS0lyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>PVG</td><td>沙巴·亚庇</td><td>2026-10-30 ~ 2026-11-01</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥2661</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTAtMzAoAWoFEgNQVkdyBRIDQktJGhwSCjIwMjYtMTEtMDEoAWoFEgNCS0lyBRIDUFZHQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>HGH</td><td>新加坡</td><td>2026-12-04 ~ 2026-12-06</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥2689</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTItMDQoAWoFEgNIR0hyBRIDU0lOGhwSCjIwMjYtMTItMDYoAWoFEgNTSU5yBRIDSEdIQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>NGB</td><td>岘港</td><td>2026-11-13 ~ 2026-11-15</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥2699</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTEtMTMoAWoFEgNOR0JyBRIDREFEGhwSCjIwMjYtMTEtMTUoAWoFEgNEQURyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>NGB</td><td>台北</td><td>2027-02-06 ~ 2027-02-14</td>
+  <td class="muted">假期·春节</td>
+  <td class="num"><b>¥2744</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjctMDItMDYoAWoFEgNOR0JyBRIDVFBFGhwSCjIwMjctMDItMTQoAWoFEgNUUEVyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>PVG</td><td>釜山</td><td>2026-11-20 ~ 2026-11-22</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥2748</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTEtMjAoAWoFEgNQVkdyBRIDUFVTGhwSCjIwMjYtMTEtMjIoAWoFEgNQVVNyBRIDUFZHQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>NGB</td><td>普吉岛</td><td>2026-12-04 ~ 2026-12-06</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥2822</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTItMDQoAWoFEgNOR0JyBRIDSEtUGhwSCjIwMjYtMTItMDYoAWoFEgNIS1RyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>NGB</td><td>普吉岛</td><td>2026-11-27 ~ 2026-11-29</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥2834</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTEtMjcoAWoFEgNOR0JyBRIDSEtUGhwSCjIwMjYtMTEtMjkoAWoFEgNIS1RyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>NGB</td><td>冲绳·那霸</td><td>2026-12-04 ~ 2026-12-06</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥2847</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTItMDQoAWoFEgNOR0JyBRIDT0tBGhwSCjIwMjYtMTItMDYoAWoFEgNPS0FyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>NGB</td><td>沙巴·亚庇</td><td>2026-10-23 ~ 2026-10-25</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥2891</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTAtMjMoAWoFEgNOR0JyBRIDQktJGhwSCjIwMjYtMTAtMjUoAWoFEgNCS0lyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>PVG</td><td>清迈</td><td>2026-10-16 ~ 2026-10-18</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥2970</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTAtMTYoAWoFEgNQVkdyBRIDQ05YGhwSCjIwMjYtMTAtMTgoAWoFEgNDTlhyBRIDUFZHQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>PVG</td><td>福冈</td><td>2026-10-30 ~ 2026-11-01</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥2981</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTAtMzAoAWoFEgNQVkdyBRIDRlVLGhwSCjIwMjYtMTEtMDEoAWoFEgNGVUtyBRIDUFZHQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>HGH</td><td>大阪</td><td>2026-11-27 ~ 2026-11-29</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥2985</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTEtMjcoAWoFEgNIR0hyBRIDS0lYGhwSCjIwMjYtMTEtMjkoAWoFEgNLSVhyBRIDSEdIQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>PVG</td><td>清迈</td><td>2026-11-27 ~ 2026-11-29</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥3012</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTEtMjcoAWoFEgNQVkdyBRIDQ05YGhwSCjIwMjYtMTEtMjkoAWoFEgNDTlhyBRIDUFZHQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>NGB</td><td>岘港</td><td>2026-10-16 ~ 2026-10-18</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥3054</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTAtMTYoAWoFEgNOR0JyBRIDREFEGhwSCjIwMjYtMTAtMTgoAWoFEgNEQURyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>NGB</td><td>岘港</td><td>2026-10-23 ~ 2026-10-25</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥3092</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTAtMjMoAWoFEgNOR0JyBRIDREFEGhwSCjIwMjYtMTAtMjUoAWoFEgNEQURyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>HGH</td><td>大阪</td><td>2026-11-13 ~ 2026-11-15</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥3125</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTEtMTMoAWoFEgNIR0hyBRIDS0lYGhwSCjIwMjYtMTEtMTUoAWoFEgNLSVhyBRIDSEdIQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>PVG</td><td>釜山</td><td>2026-11-13 ~ 2026-11-15</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥3148</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTEtMTMoAWoFEgNQVkdyBRIDUFVTGhwSCjIwMjYtMTEtMTUoAWoFEgNQVVNyBRIDUFZHQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>PVG</td><td>长滩岛(卡蒂克兰)</td><td>2026-10-23 ~ 2026-10-25</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥3153</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTAtMjMoAWoFEgNQVkdyBRIDTVBIGhwSCjIwMjYtMTAtMjUoAWoFEgNNUEhyBRIDUFZHQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>HGH</td><td>东京(成田/羽田)</td><td>2026-11-27 ~ 2026-11-29</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥3219</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTEtMjcoAWoFEgNIR0hyBRIDVFlPGhwSCjIwMjYtMTEtMjkoAWoFEgNUWU9yBRIDSEdIQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>PVG</td><td>釜山</td><td>2027-02-06 ~ 2027-02-14</td>
+  <td class="muted">假期·春节</td>
+  <td class="num"><b>¥3243</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjctMDItMDYoAWoFEgNQVkdyBRIDUFVTGhwSCjIwMjctMDItMTQoAWoFEgNQVVNyBRIDUFZHQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>NGB</td><td>清迈</td><td>2026-10-23 ~ 2026-10-25</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥3271</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTAtMjMoAWoFEgNOR0JyBRIDQ05YGhwSCjIwMjYtMTAtMjUoAWoFEgNDTlhyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>NGB</td><td>沙巴·亚庇</td><td>2026-11-13 ~ 2026-11-15</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥3291</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTEtMTMoAWoFEgNOR0JyBRIDQktJGhwSCjIwMjYtMTEtMTUoAWoFEgNCS0lyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>NGB</td><td>济州岛</td><td>2026-10-23 ~ 2026-10-25</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥3327</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTAtMjMoAWoFEgNOR0JyBRIDQ0pVGhwSCjIwMjYtMTAtMjUoAWoFEgNDSlVyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>NGB</td><td>济州岛</td><td>2026-12-31 ~ 2027-01-03</td>
+  <td class="muted">假期·元旦</td>
+  <td class="num"><b>¥3358</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTItMzEoAWoFEgNOR0JyBRIDQ0pVGhwSCjIwMjctMDEtMDMoAWoFEgNDSlVyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>NGB</td><td>清迈</td><td>2026-10-16 ~ 2026-10-18</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥3367</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTAtMTYoAWoFEgNOR0JyBRIDQ05YGhwSCjIwMjYtMTAtMTgoAWoFEgNDTlhyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>NGB</td><td>沙巴·亚庇</td><td>2026-12-31 ~ 2027-01-03</td>
+  <td class="muted">假期·元旦</td>
+  <td class="num"><b>¥3375</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTItMzEoAWoFEgNOR0JyBRIDQktJGhwSCjIwMjctMDEtMDMoAWoFEgNCS0lyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>HGH</td><td>大阪</td><td>2026-11-06 ~ 2026-11-08</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥3385</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTEtMDYoAWoFEgNIR0hyBRIDS0lYGhwSCjIwMjYtMTEtMDgoAWoFEgNLSVhyBRIDSEdIQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>PVG</td><td>沙巴·亚庇</td><td>2026-11-13 ~ 2026-11-15</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥3391</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTEtMTMoAWoFEgNQVkdyBRIDQktJGhwSCjIwMjYtMTEtMTUoAWoFEgNCS0lyBRIDUFZHQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>NGB</td><td>清迈</td><td>2026-11-27 ~ 2026-11-29</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥3437</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTEtMjcoAWoFEgNOR0JyBRIDQ05YGhwSCjIwMjYtMTEtMjkoAWoFEgNDTlhyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>NGB</td><td>台北</td><td>2026-11-06 ~ 2026-11-08</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥3438</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTEtMDYoAWoFEgNOR0JyBRIDVFBFGhwSCjIwMjYtMTEtMDgoAWoFEgNUUEVyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>NGB</td><td>首尔</td><td>2026-10-23 ~ 2026-10-25</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥3441</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTAtMjMoAWoFEgNOR0JyBRIDSUNOGhwSCjIwMjYtMTAtMjUoAWoFEgNJQ05yBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>NGB</td><td>济州岛</td><td>2026-11-13 ~ 2026-11-15</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥3485</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTEtMTMoAWoFEgNOR0JyBRIDQ0pVGhwSCjIwMjYtMTEtMTUoAWoFEgNDSlVyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>PVG</td><td>宿务</td><td>2027-02-06 ~ 2027-02-14</td>
+  <td class="muted">假期·春节</td>
+  <td class="num"><b>¥3615</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjctMDItMDYoAWoFEgNQVkdyBRIDQ0VCGhwSCjIwMjctMDItMTQoAWoFEgNDRUJyBRIDUFZHQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>NGB</td><td>富国岛</td><td>2026-12-31 ~ 2027-01-03</td>
+  <td class="muted">假期·元旦</td>
+  <td class="num"><b>¥3616</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTItMzEoAWoFEgNOR0JyBRIDUFFDGhwSCjIwMjctMDEtMDMoAWoFEgNQUUNyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>NGB</td><td>曼谷</td><td>2027-02-06 ~ 2027-02-14</td>
+  <td class="muted">假期·春节</td>
+  <td class="num"><b>¥3657</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjctMDItMDYoAWoFEgNOR0JyBRIDQktLGhwSCjIwMjctMDItMTQoAWoFEgNCS0tyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>NGB</td><td>釜山</td><td>2026-11-13 ~ 2026-11-15</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥3721</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTEtMTMoAWoFEgNOR0JyBRIDUFVTGhwSCjIwMjYtMTEtMTUoAWoFEgNQVVNyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>NGB</td><td>首尔</td><td>2026-10-30 ~ 2026-11-01</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥3738</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTAtMzAoAWoFEgNOR0JyBRIDSUNOGhwSCjIwMjYtMTEtMDEoAWoFEgNJQ05yBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>NGB</td><td>冲绳·那霸</td><td>2026-12-31 ~ 2027-01-03</td>
+  <td class="muted">假期·元旦</td>
+  <td class="num"><b>¥3751</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTItMzEoAWoFEgNOR0JyBRIDT0tBGhwSCjIwMjctMDEtMDMoAWoFEgNPS0FyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>NGB</td><td>台北</td><td>2026-11-13 ~ 2026-11-15</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥3766</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTEtMTMoAWoFEgNOR0JyBRIDVFBFGhwSCjIwMjYtMTEtMTUoAWoFEgNUUEVyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>HGH</td><td>新加坡</td><td>2026-12-31 ~ 2027-01-03</td>
+  <td class="muted">假期·元旦</td>
+  <td class="num"><b>¥3804</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTItMzEoAWoFEgNIR0hyBRIDU0lOGhwSCjIwMjctMDEtMDMoAWoFEgNTSU5yBRIDSEdIQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>PVG</td><td>釜山</td><td>2026-10-30 ~ 2026-11-01</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥3862</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTAtMzAoAWoFEgNQVkdyBRIDUFVTGhwSCjIwMjYtMTEtMDEoAWoFEgNQVVNyBRIDUFZHQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>NGB</td><td>济州岛</td><td>2026-10-30 ~ 2026-11-01</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥3905</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTAtMzAoAWoFEgNOR0JyBRIDQ0pVGhwSCjIwMjYtMTEtMDEoAWoFEgNDSlVyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>NGB</td><td>清迈</td><td>2026-10-30 ~ 2026-11-01</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥3922</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTAtMzAoAWoFEgNOR0JyBRIDQ05YGhwSCjIwMjYtMTEtMDEoAWoFEgNDTlhyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>NGB</td><td>富国岛</td><td>2026-10-16 ~ 2026-10-18</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥3958</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTAtMTYoAWoFEgNOR0JyBRIDUFFDGhwSCjIwMjYtMTAtMTgoAWoFEgNQUUNyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>NGB</td><td>普吉岛</td><td>2026-12-31 ~ 2027-01-03</td>
+  <td class="muted">假期·元旦</td>
+  <td class="num"><b>¥3988</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTItMzEoAWoFEgNOR0JyBRIDSEtUGhwSCjIwMjctMDEtMDMoAWoFEgNIS1RyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>PVG</td><td>芽庄</td><td>2027-02-06 ~ 2027-02-14</td>
+  <td class="muted">假期·春节</td>
+  <td class="num"><b>¥4045</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjctMDItMDYoAWoFEgNQVkdyBRIDQ1hSGhwSCjIwMjctMDItMTQoAWoFEgNDWFJyBRIDUFZHQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>NGB</td><td>普吉岛</td><td>2026-10-30 ~ 2026-11-01</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥4070</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTAtMzAoAWoFEgNOR0JyBRIDSEtUGhwSCjIwMjYtMTEtMDEoAWoFEgNIS1RyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>PVG</td><td>沙巴·亚庇</td><td>2026-11-27 ~ 2026-11-29</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥4101</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTEtMjcoAWoFEgNQVkdyBRIDQktJGhwSCjIwMjYtMTEtMjkoAWoFEgNCS0lyBRIDUFZHQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>PVG</td><td>沙巴·亚庇</td><td>2026-11-06 ~ 2026-11-08</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥4165</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTEtMDYoAWoFEgNQVkdyBRIDQktJGhwSCjIwMjYtMTEtMDgoAWoFEgNCS0lyBRIDUFZHQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>NGB</td><td>沙巴·亚庇</td><td>2027-02-06 ~ 2027-02-14</td>
+  <td class="muted">假期·春节</td>
+  <td class="num"><b>¥4179</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjctMDItMDYoAWoFEgNOR0JyBRIDQktJGhwSCjIwMjctMDItMTQoAWoFEgNCS0lyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>NGB</td><td>普吉岛</td><td>2026-11-13 ~ 2026-11-15</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥4204</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTEtMTMoAWoFEgNOR0JyBRIDSEtUGhwSCjIwMjYtMTEtMTUoAWoFEgNIS1RyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>NGB</td><td>济州岛</td><td>2027-02-06 ~ 2027-02-14</td>
+  <td class="muted">假期·春节</td>
+  <td class="num"><b>¥4222</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjctMDItMDYoAWoFEgNOR0JyBRIDQ0pVGhwSCjIwMjctMDItMTQoAWoFEgNDSlVyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>NGB</td><td>岘港</td><td>2026-10-30 ~ 2026-11-01</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥4292</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTAtMzAoAWoFEgNOR0JyBRIDREFEGhwSCjIwMjYtMTEtMDEoAWoFEgNEQURyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>PVG</td><td>清迈</td><td>2027-02-06 ~ 2027-02-14</td>
+  <td class="muted">假期·春节</td>
+  <td class="num"><b>¥4450</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjctMDItMDYoAWoFEgNQVkdyBRIDQ05YGhwSCjIwMjctMDItMTQoAWoFEgNDTlhyBRIDUFZHQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>NGB</td><td>大阪</td><td>2026-12-31 ~ 2027-01-03</td>
+  <td class="muted">假期·元旦</td>
+  <td class="num"><b>¥4465</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTItMzEoAWoFEgNOR0JyBRIDS0lYGhwSCjIwMjctMDEtMDMoAWoFEgNLSVhyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>PVG</td><td>釜山</td><td>2026-12-31 ~ 2027-01-03</td>
+  <td class="muted">假期·元旦</td>
+  <td class="num"><b>¥4492</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTItMzEoAWoFEgNQVkdyBRIDUFVTGhwSCjIwMjctMDEtMDMoAWoFEgNQVVNyBRIDUFZHQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>NGB</td><td>冲绳·那霸</td><td>2026-10-30 ~ 2026-11-01</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥4706</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTAtMzAoAWoFEgNOR0JyBRIDT0tBGhwSCjIwMjYtMTEtMDEoAWoFEgNPS0FyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>NGB</td><td>福冈</td><td>2026-10-30 ~ 2026-11-01</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥4712</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTAtMzAoAWoFEgNOR0JyBRIDRlVLGhwSCjIwMjYtMTEtMDEoAWoFEgNGVUtyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>PVG</td><td>釜山</td><td>2026-10-16 ~ 2026-10-18</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥4769</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTAtMTYoAWoFEgNQVkdyBRIDUFVTGhwSCjIwMjYtMTAtMTgoAWoFEgNQVVNyBRIDUFZHQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>NGB</td><td>釜山</td><td>2026-10-23 ~ 2026-10-25</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥4943</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTAtMjMoAWoFEgNOR0JyBRIDUFVTGhwSCjIwMjYtMTAtMjUoAWoFEgNQVVNyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>NGB</td><td>普吉岛</td><td>2027-02-06 ~ 2027-02-14</td>
+  <td class="muted">假期·春节</td>
+  <td class="num"><b>¥5275</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjctMDItMDYoAWoFEgNOR0JyBRIDSEtUGhwSCjIwMjctMDItMTQoAWoFEgNIS1RyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>NGB</td><td>清迈</td><td>2027-02-06 ~ 2027-02-14</td>
+  <td class="muted">假期·春节</td>
+  <td class="num"><b>¥5322</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjctMDItMDYoAWoFEgNOR0JyBRIDQ05YGhwSCjIwMjctMDItMTQoAWoFEgNDTlhyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>PVG</td><td>釜山</td><td>2026-10-23 ~ 2026-10-25</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥5364</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTAtMjMoAWoFEgNQVkdyBRIDUFVTGhwSCjIwMjYtMTAtMjUoAWoFEgNQVVNyBRIDUFZHQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>NGB</td><td>釜山</td><td>2026-10-16 ~ 2026-10-18</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥5738</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTAtMTYoAWoFEgNOR0JyBRIDUFVTGhwSCjIwMjYtMTAtMTgoAWoFEgNQVVNyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>NGB</td><td>台北</td><td>2026-10-16 ~ 2026-10-18</td>
+  <td class="muted">周末 Fri→Sun</td>
+  <td class="num"><b>¥5868</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjYtMTAtMTYoAWoFEgNOR0JyBRIDVFBFGhwSCjIwMjYtMTAtMTgoAWoFEgNUUEVyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>HGH</td><td>巴厘岛</td><td>2027-02-06 ~ 2027-02-14</td>
+  <td class="muted">假期·春节</td>
+  <td class="num"><b>¥5964</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjctMDItMDYoAWoFEgNIR0hyBRIDRFBTGhwSCjIwMjctMDItMTQoAWoFEgNEUFNyBRIDSEdIQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>NGB</td><td>东京(成田/羽田)</td><td>2027-02-06 ~ 2027-02-14</td>
+  <td class="muted">假期·春节</td>
+  <td class="num"><b>¥6503</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjctMDItMDYoAWoFEgNOR0JyBRIDVFlPGhwSCjIwMjctMDItMTQoAWoFEgNUWU9yBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>NGB</td><td>大阪</td><td>2027-02-06 ~ 2027-02-14</td>
+  <td class="muted">假期·春节</td>
+  <td class="num"><b>¥6939</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjctMDItMDYoAWoFEgNOR0JyBRIDS0lYGhwSCjIwMjctMDItMTQoAWoFEgNLSVhyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>NGB</td><td>冲绳·那霸</td><td>2027-02-06 ~ 2027-02-14</td>
+  <td class="muted">假期·春节</td>
+  <td class="num"><b>¥6956</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjctMDItMDYoAWoFEgNOR0JyBRIDT0tBGhwSCjIwMjctMDItMTQoAWoFEgNPS0FyBRIDTkdCQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr><tr>
+  <td>PVG</td><td>福冈</td><td>2027-02-06 ~ 2027-02-14</td>
+  <td class="muted">假期·春节</td>
+  <td class="num"><b>¥7698</b></td><td class="num"><span class="muted">新</span></td>
+  <td class="num muted">—</td>
+  <td></td>
+  <td><a href="https://www.google.com/travel/flights/search?tfs=GhwSCjIwMjctMDItMDYoAWoFEgNQVkdyBRIDRlVLGhwSCjIwMjctMDItMTQoAWoFEgNGVUtyBRIDUFZHQgEBSAGYAQE=&amp;hl=zh-CN&amp;curr=CNY" target="_blank">查看</a></td>
+</tr></tbody></table>
+</div></body></html>
